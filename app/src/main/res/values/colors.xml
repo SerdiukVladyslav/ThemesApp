@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="Light.Background">#FFFFFF</color>
+    <color name="Light.Font">#000000</color>
+    <color name="Light.Button.Background">#E0E0E0</color>
+    <color name="Light.Button.Font">#000000</color>
+    <color name="Light.Button.Border">#BDBDBD</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="Dark.Background">#121212</color>
+    <color name="Dark.Font">#FFFFFF</color>
+    <color name="Dark.Button.Background">#424242</color>
+    <color name="Dark.Button.Font">#FFFFFF</color>
+    <color name="Dark.Button.Border">#616161</color>
+
+    <!-- Blue Theme Colors -->
+    <color name="Blue.Background">#E3F2FD</color>
+    <color name="Blue.Font">#0D47A1</color>
+    <color name="Blue.Button.Background">#3B4FB8</color>
+    <color name="Blue.Button.Font">#FFFFFF</color>
+    <color name="Blue.Button.Border">#1E88E5</color>
+</resources>

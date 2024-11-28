@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <style name="Light.Theme.MyProject" parent="Theme.Material3.DayNight">
+        <item name="colorBackgroundFloating">@color/Light.Background</item>
+        <item name="colorOnBackground">@color/Light.Font</item>
+        <item name="buttonStyle">@style/Light.Button</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Dark.Theme.MyProject" parent="Theme.Material3.DayNight">
+        <item name="colorBackgroundFloating">@color/Dark.Background</item>
+        <item name="colorOnBackground">@color/Dark.Font</item>
+        <item name="buttonStyle">@style/Dark.Button</item>
+    </style>
+
+    <!-- Blue Theme -->
+    <style name="Blue.Theme.MyProject" parent="Theme.Material3.DayNight">
+        <item name="colorBackgroundFloating">@color/Blue.Background</item>
+        <item name="colorOnBackground">@color/Blue.Font</item>
+        <item name="buttonStyle">@style/Blue.Button</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Light.Button" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/Light.Button.Background</item>
+        <item name="android:textColor">@color/Light.Button.Font</item>
+        <item name="android:strokeColor">@color/Light.Button.Border</item>
+    </style>
+
+    <style name="Dark.Button" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/Dark.Button.Background</item>
+        <item name="android:textColor">@color/Dark.Button.Font</item>
+        <item name="android:strokeColor">@color/Dark.Button.Border</item>
+    </style>
+
+    <style name="Blue.Button" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/Blue.Button.Background</item>
+        <item name="android:textColor">@color/Blue.Button.Font</item>
+        <item name="android:strokeColor">@color/Blue.Button.Border</item>
+    </style>
+</resources>
